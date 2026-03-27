@@ -2,8 +2,8 @@ package Inheritance;
 
 public class Phone {
 
-    String brand;
-    String model;
+    protected String brand;
+    protected String model;
 
     public Phone(String brand, String model){
         this.brand = brand;
